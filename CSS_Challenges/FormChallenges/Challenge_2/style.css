@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@600&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background: linear-gradient(45deg,rgb(181, 247, 59),rgb(2, 196, 255));
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.center{
+    /* border: 2px solid; */
+    height: 60vh;
+    width: 25vw;
+    background-color: aliceblue;
+    border-radius: 25px;
+}
+.center h1{
+    /* text-align: center; */
+    width: fit-content;
+    margin-left: auto;  
+    margin-right: auto;
+    margin-top: 15%;
+    font-size: 50px;
+    font-family:Sansita Swashed ;
+    border-left: 8px solid rgb(4, 128, 223);
+    padding: 5px 25px;
+}
+.center form{
+    /* width: fit-content; */
+    /* border: 2px solid; */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.inputbox{
+     /* border: 2px solid; */
+    margin: 60px 0px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 20px; */
+}
+.inputbox span{
+    display: none;
+}
+.inputbox input[type="text"]{
+    width: 90%;
+    font-size: larger;
+    height: 5vh;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 0px 25px;
+    display: block;
+   
+}
+.inputbox input[type="button"]{
+    width: 35%;
+    height: 4vh;
+    background-color: #3787ff;
+    color: #e5e5e5;
+    font-size:x-large;
+    font-weight: 500;
+    border-radius: 15px;
+    border: none;
+}
