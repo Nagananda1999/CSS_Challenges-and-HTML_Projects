@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+* {
+  font-family: "poppins", "verdana";
+  box-sizing: border-box;
+}
+
+h2 {
+  text-align: center;
+  font-size: 20px;
+}
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1502239608882-93b729c6af43?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80);
+}
+h1,
+h3 {
+  text-align: center;
+}
+.container {
+  font-size: 16px;
+  color: rgb(248, 236, 221);
+  border-radius: 8px;
+  padding: 33px;
+
+  width: 100%;
+  /* background-color: rgba(255, 255, 255, 0.212); */
+  box-shadow: black;
+  align-content: center;
+}
+input {
+  border-radius: 12px;
+  border: none;
+}
+button {
+  background-color: cadetblue;
+  border: none;
+  padding: 10px;
+  border-radius: 12px;
+  width: 50%;
+}
+.yo {
+  width: 50%;
+  margin: auto;
+}
+
+button:hover {
+  background-color: white;
+}

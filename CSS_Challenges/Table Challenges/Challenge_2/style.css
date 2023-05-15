@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+*{
+  font-family: "Indie Flower";
+}
+
+#myTable {
+  text-align: center;
+}
+
+caption {
+  font-size: 22px;
+  font-weight: 500;
+  caption-side: bottom;
+}
+
+hr {
+  border: 2px ridge #ababab;
+}
+
+th {
+  font-size: 125%;
+  font-weight: bold;
+  color: red;
+}
+
+tr {
+  background-color: aquamarine;
+  font-size: 1.2em;
+}
+
+td:hover {
+  background-color: #8fb1cc;
+}
