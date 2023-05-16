@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+  font-family: Poppins, sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+.nav{
+    /* border: 5px solid; */
+    background-color: #2B2922;
+    height: 55vh;
+    z-index: 1;   
+}
+.navbar{
+    /* border: 2px solid wheat; */
+    /* visibility: hidden; */
+    display: flex;
+    width: 100%;
+    height: 25%;
+    justify-content:space-around;
+    align-items: center;
+}
+.navbar div{
+    /* border: 5px solid; */
+    color: #9c9595;
+}
+.navbar div:nth-child(2){
+    /* border: 5px solid; */
+    margin-left: 25%;
+    margin-right: 0px;
+}
+.list li{
+    padding: 5px 25px;
+    list-style: none;
+    display: inline;
+}
+.list li:hover{
+    color: #d9d7d7;
+}
+.button-small{
+    border: 2px solid #A08F36;
+    background-color: transparent;
+    color: #A08F36;
+    padding: 20px 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight:500;
+
+}
+
+.navbar2{
+    /* border: 2px solid beige; */
+    /* overflow: hidden; */
+    display: flex;
+    justify-content:space-between;
+    box-sizing: border-box;
+    height:75%;
+}
+.navbar2 div{
+    /* border: 2px solid beige; */
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar2 .nh1{
+    /* background-color:#b4b3b0; */
+    color: #dfdfdf;
+    font-size: 5rem;
+    width: 80%;
+    text-align: center;
+}
+.navbar2 .nh2{
+    /* border: 2px solid beige; */
+    width: 67%;
+    text-align: left;
+    color: #b4b3b0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 23px;
+    font-weight: 400;
+}
+.hero{
+    background-image: url("./assets/pexels-ekaterina-bolovtsova-6077326.jpg");
+    background-size:cover;
+    position: absolute;
+    top:30vh;
+    width: 100vw;
+    height: 70vh;
+    z-index: -1;
+}
+.bottom img{
+    display: none;
+}
