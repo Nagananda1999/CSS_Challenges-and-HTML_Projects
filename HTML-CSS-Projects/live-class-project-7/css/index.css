@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Poppins;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 15px;
+}
+nav>img{
+    margin-left: 30px;
+    max-width: fit-content;
+}
+.nav-items{
+    display: flex;
+}
+.nav-item{
+    margin:0px 50px;
+    font-size: 26px;
+    font-weight: 300;
+}
+.active-item{
+    font-weight: 900;
+    color: #FE5E35;
+}
+.intro-section{
+    /* border: 2px solid black; */
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.left-section{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+}
+.left-section>h3{
+    /* border: 2px solid black; */
+    font-size: 50px;
+    font-weight: 500;
+    width: fit-content;
+    margin-left: 25px;
+    margin-top: 100px;
+}
+.left-section>h1{
+    /* border: 2px solid black; */
+    font-family: 'Fredoka One';
+    font-size: 95px;
+    margin-left: 25px;
+    width: fit-content;
+}
+.sub-headlines{
+    /* border: 2px solid black; */
+    width: fit-content;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.sub-headline{
+    /* border: 2px solid black; */
+    color: rgb(29, 29, 29);
+    font-size: 30px;
+    font-weight:500;
+    margin-bottom: 20px;
+}
+.sub-headline>img{
+    border: 10px solid #FE5E35;
+    background-color: #FE5E35;
+    width: 20px;
+    margin-bottom: -10px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.text{
+    /* border: 2px solid; */
+    color: grey;
+    font-size: 20px;
+    margin: 30px 30px;
+}
+.action-btns{
+    /* border: 2px solid black; */
+    width: fit-content;
+    display: flex;
+    margin: 30px 30px;
+}
+.action-btns .action-btn:nth-child(1){
+    margin-right: 25px;
+}
+.action-btn{
+    border: none;
+    background-color: #FE5E35;
+    color: #f5f5f5;
+    font-size: 23px;
+    height: 80px;
+    width: 300px;
+    border-radius: 50px;
+}
+.right-section{
+    /* border: 2px solid black; */
+    position: relative;
+}
+.discount,.discount-content{
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 300px;
+    left: -50px;
+}
+.discount-content{
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 50px;
+    color: #f5f5f5;
+    font-weight: 700;
+    font-size: 20px;
+}
+.headphone{
+    /* border: 2px solid black; */
+    margin-top: 25px;
+}
+.dots{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+}
+.dot{
+    width: 36px;
+    height: 36px;
+    margin: 0 20px;
+    border-radius: 50% 50%;
+}
+.yellow-dot{
+    background:yellow;
+}
+.tomato-dot{
+    background-color: tomato;
+}
+.black-dot{
+    background-color: black;
+}
+.right-section .action-btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+@media screen and (max-width:1382px) {
+    .left-section{
+        width:50%
+    }
+    .headphone{
+        height: 500px;
+    }
+}
+@media screen and (max-width:1200px) {
+    nav{
+        flex-direction: column;
+        align-items: center;    
+    }
+    .action-btns{
+        flex-direction: column;
+    }
+    .action-btn{
+        margin-bottom: 10px;
+    }
+   
+}
+@media screen and (max-width:1024px) {
+
+    .left-section h3 {
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    
+    .left-section h1 {
+        font-family: 'Fredoka One';
+        font-size: 3rem;
+    }
+    .action-btn {
+        margin-bottom: 20px;
+    }
+    .sub-headlines{
+        margin-left: 30px;
+    }
+    .sub-headline{
+        font-size: 1.2rem;
+    }
+    .text{
+        margin: 30px 30px;
+        font-size: 1rem;
+    }
+    .headphone{
+        height: 400px;
+    }
+    .discount,.discount-content{
+        top:250px;
+        left:-10px;
+    }
+    .discount{
+        width: 100px;
+    }
+    .discount-content{
+        margin-left: 30px;
+        margin-top: 30px;
+        color: #f5f5f5;
+        font-size: 10px;
+    }
+    .action-btn{
+        font-size: 12px;
+        height: 50px;
+        width: 160px;
+        border-radius: 50px;
+    }
+}
+@media screen and (max-width:768px){
+    .nav-item{
+        margin: 0 20px;
+        font-size: 1rem;
+    }
+    .intro-section{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .left-section,.right-section{
+        width: 100%;
+        align-items: center;
+    }
+}
