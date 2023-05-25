@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="50" height="50" viewBox="0 0 50 50" xml:space="preserve">
+<desc>Created with Fabric.js 4.2.0</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
+<g transform="matrix(1 0 0 1 25 25)" id="aefa7c4b-3859-421d-9beb-847ff3544d90"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-25" y="-25" rx="0" ry="0" width="50" height="50" />
+</g>
+<g transform="matrix(Infinity NaN NaN Infinity 0 0)" id="15c93afc-326a-469d-884b-c52fbb5d96a2"  >
+</g>
+<g transform="matrix(0.41 0 0 0.41 25 25)" id="d0111ede-3f75-4799-86e2-af1d17479a36"  >
+	<image style="stroke: none; stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAuCAYAAABu3ppsAAAAAXNSR0IArs4c6QAAAhdJREFUaEPtmIEtREEQhv+rgA5QAR2gAlRAB+iAClABKkAFqAAVoAI6IJ/cXi4vu28mt2/uucub5JJL3r7d+WZm/523Iy24jRbcfw0AfWdwyMCyZ2BV0oWkHUn8f5V0LumpK/DIEtqS9Dh2vOnvqaTLLiAiAXCeyJdsQ9JHLUQkwI/hHKV09l8BqPevRQbAdzbsZgvEbhebObKE9iXdFQDeJLHJqy0SAOeQy+2Ml51En3lrAJDB6RKhZL4bzhJlMjFtjEkSigqVlOjZk54agFJ0Pet6xrh8cw0qrDYAGGlwBdc1aFkz8NKVFBYC5Aqua1BhAatV8GzUtjEu36xBtARIJXKIrCGVySIBWKutEZw40QaAfl832mGUJ/Xz/xqAiFPjJQPEFaEZ66g6A/eS9mZcvIvXqgFohan/vqwagP5krS/vx4LhKtHSJr6RdLjIAJQPWVjJQNDL002iUFFWXUI4BgSOIqeAMCmZ4Yd5ZDTBppaZuY4d1J0AWOtYALeSjjKTINHIcC67aXjvAJ/j07v5gZMcBKytBMMBrIPuStJJSwqtW4twACSOi6uSee582krQCsBkXauZKzloATxkvoWn51qX9F4ZgL/XowCYu+3q0DpnPBkMB6CfOshE2Yo+r4QD4ERTInNHP2Oa1yZs7nTVghjk5DQcwDoj5vZ81j0wNwethQYAK0LRz4cMREfYmn/IgBWh6Oe/uEBfLxTdW0QAAAAASUVORK5CYII=" x="-24" y="-23" width="48" height="46"></image>
+</g>
+</svg>

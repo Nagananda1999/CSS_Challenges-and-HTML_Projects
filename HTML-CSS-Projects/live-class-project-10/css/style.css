@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    font-family:sans-serif;
+
+}
+body{
+    background-image: url('../assets/retro-living-room-interior-design.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:left;
+    height: 100vh;
+}
+nav{
+    /* border: 2px solid; */
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    padding: 10px 50px; 
+}
+.logo{
+    margin-top: auto;
+}
+
+.logo>h1{
+    /* border: 2px solid; */
+    font-size: 2rem;
+}
+
+
+.nav-items{
+    /* border: 2px solid #ffffff; */
+    border-bottom: 3px solid #ffffff;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 30px 0;
+
+}
+
+.nav-item{
+    /* border: 2px solid; */
+    text-align: center;
+    margin: 0 25px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.call-item{
+    display: flex;
+    align-items: center;
+    align-self:flex-end;
+}
+
+
+.call-item>div{
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+.call-item>img{
+    height: 50px;
+    /* position: relative; */
+    top: 5px;
+    left: 6px;
+}
+main{
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: space-between;
+}
+.left-section{
+    /* border: 2px solid white; */
+    margin-left: 100px;
+}
+
+.left-section h1{
+    color: #f5f5f5;
+    margin-top: 180px;
+    font-size: 5rem;
+    margin-left: 30px;
+}
+
+.btn{
+    border: 4px solid white;
+    background-color: transparent;
+    color: #f5f5f5;
+    padding:20px 60px;
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: 100px;
+    border-radius: 80px;
+}
+
+.right-section{
+    /* border: 2px solid white; */
+    position: relative;
+}
+.card{
+    height: 180px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: hsla(200, 30%, 27%, 0.571);
+    position: relative;
+    color: #ffffff;
+}
+.card>.img{
+    width: 80px;
+    height: 40px;
+    margin: 20px;
+    border-radius: 100px;
+    background-color: #f5f5f5;
+}
+.card>.img1>img{
+    /* border: 2px solid; */
+    width: 100px;
+    position: relative;
+    top: -31px;
+    left: -10px;
+}
+.card>.img2>img{
+    /* border: 2px solid; */
+    width: 60px;
+    position: relative;
+    top: -13px;
+    left: 9px;
+}
+.card>p{
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.card1{
+    top: 100px;
+    right:150px;
+}
+.card2{
+    top: 200px;
+    right: 400px;
+}
+.line1{
+    height: 70px;
+    width: 1px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 100%;
+    right: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.line1>div{
+    /* border: 1px solid; */
+    position: absolute;
+    bottom: 0%;
+    width: 20px;
+    height: 20px;
+    border-radius:10px ;
+    background-color: #f5f5f5;
+}
+.line2{
+    height: 1px;
+    width: 70px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 100%;
+    top: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.line2>div{
+    /* border: 1px solid; */
+    position: absolute;
+    right: 0%;
+    width: 20px;
+    height: 20px;
+    border-radius:10px ;
+    background-color: #f5f5f5;
+}
+@media screen and (max-width:1400px) {
+    .left-section h1{
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+    .card1{
+        right:50px
+    }
+    .card2{
+        top:250px;
+    }
+}
+@media screen and (max-width:1200px){
+    .left-section{
+        margin-left: 50px;
+    }
+    .left-section h1{
+        margin-top: 80px;
+        margin-left: 20px;
+        font-size: 3.5rem;
+    }
+    .btn{
+        margin-top: 50px;
+        font-size: 38px;
+    }
+    .card2{
+        right: 300px;
+    }
+    .nav-item{
+        margin: 0 15px;
+        font-size: 1.2rem;
+    }
+    .call-item>div{
+        font-size: 1.1rem;
+    }
+    .card2{
+        top:200px;
+    }
+    
+}
+@media screen and (max-width:950px){
+    body{
+        background-position: center;
+    }
+   .nav-item{
+    display: none;
+   }
+   .left-section h1{
+    margin-top: 30px;
+    margin-left: 0px;
+    font-size: 3rem;
+    }
+    .btn{
+        font-size: 22px;
+        padding:15px 40px;
+        margin-left: 10px;
+        margin-top: 40px;
+        border-radius: 50px;
+    }
+    .card{
+        height: 150px;
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        background-color: hsla(200, 30%, 27%, 0.571);
+        position: relative;
+        color: #ffffff;
+    }
+    .card>.img{
+        margin: 10px;
+    }
+    .card>p{
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 20px;
+    }   
+    .card1{
+        right:30px
+    }
+    .card2{
+        bottom: 0px;
+    }
+}
+@media screen and (max-width:768px){
+    main{
+        flex-direction: column;
+    }
+    body{
+        height: 150vh;
+    }
+    .right-section{
+        margin-top: 100px;
+    }
+    .card{
+        top: 0;
+        left: 0;
+        margin: auto;    
+    }
+    .card1{
+        /* margin-bottom: 100px; */
+        left: 22%;
+    }
+    .card2{
+        top: 100px;
+        left: -10%;
+    }
+}
+@media screen and (max-width:480px) {
+    .card{
+        top: 0;
+        left: 0;
+        margin: auto;    
+    }
+    .card1{
+        top:0;
+        right: 0;
+        margin-bottom: 100px;
+    }
+    .card2{
+        left: 0;
+        top:0;
+        }
+}
