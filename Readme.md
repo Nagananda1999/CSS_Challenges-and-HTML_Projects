@@ -11,10 +11,10 @@
 
 
 ---
-|[CSS-Challenges]() &nbsp;&nbsp;|&nbsp; [LIVE]() |
+|[CSS-Challenges](https://github.com/Nagananda1999/CSS_Challenges-and-HTML_Projects/tree/master/CSS_Challenges) &nbsp;&nbsp;|&nbsp; [LIVE](https://css-challenges-naga.netlify.app/css_challenges/) |
 -
 
-|[ HTML-CSS-Projects ]()|
+|[ HTML-CSS-Projects ](https://css-challenges-naga.netlify.app/)|
 -
 
 <br/>
